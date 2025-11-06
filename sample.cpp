@@ -27,7 +27,7 @@ int main(int argc, char* argv[]) {
         std::cerr << "Usage: " << argv[0] << " <integer1> <integer2>" << std::endl;
         return 1; // Indicate an error
     }
-
+	std::cout<<"Arguement Count : "<<argc<<std::endl;
     int num1 = std::atoi(argv[1]);
     int num2 = std::atoi(argv[2]);
 	int fact_result = fact(5);
